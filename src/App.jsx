@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
 import BookList from './views/Books/BookList'
 import BookDetail from './views/Books/BookDetail'
 import Home from './views/Home'
@@ -13,8 +13,8 @@ function App() {
     // </main>
     <div>
       <Router>
-        <header>
-          <NavLink to="/" className="app-link" exact style={{ padding: '15px' }}>
+        <header style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <NavLink to="/" className="app-link" exact>
             Home
           </NavLink>
           <NavLink to="/books" className="app-link" exact>

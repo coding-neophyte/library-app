@@ -8,7 +8,7 @@ export default function Home() {
         Welcome to Library{' '}
       </h1>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src="/book-pic.jpeg" alt="book" />
+        <img src="/book-pic.jpeg" alt="book" style={{ opacity: 0.5 }} />
       </div>
     </div>
   )
